@@ -1,0 +1,34 @@
+{
+  "name": "snowflake-compiler",
+  "version": "0.2.0",
+  "main": "index.js",
+  "description": "An HTML5 compiler to compile your HTML5 applications to native platforms",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arcxes/SnowflakeCompiler.git"
+  },
+  "keywords": [],
+  "author": "Arcxes Games",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Arcxes/SnowflakeCompiler/issues"
+  },
+  "homepage": "https://github.com/Arcxes/SnowflakeCompiler#readme",
+  "bin": {
+    "snowflake": "./src/cli.js"
+  },
+  "dependency-check": {
+    "ignore": [
+      "app",
+      "electron"
+    ]
+  },
+  "dependencies": {
+    "electron-installer-dmg": "^2.0.0",
+    "electron-packager": "^12.2.0",
+    "electron-winstaller": "^2.7.0",
+    "minimist": "^1.2.0",
+    "readline-sync": "^1.4.9"
+  }
+}
