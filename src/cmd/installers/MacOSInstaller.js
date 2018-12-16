@@ -7,7 +7,7 @@ function generateInstaller(settings){
     console.log("Creating MacOS Installer");
     const rootPath = path.join("./");
     const outPath = path.join(rootPath,settings.out);
-    const packageDirectory = path.join(outpath, (settings.name + "-darwin-x64/"));
+    const packageDirectory = path.join(outPath, (settings.name + "-darwin-x64/"));
     outputDirectory = path.join(outPath, "installers/macos");
 
     createDMG({
