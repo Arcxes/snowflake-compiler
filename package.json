@@ -1,6 +1,6 @@
 {
   "name": "snowflake-compiler",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "main": "index.js",
   "description": "An HTML5 compiler to compile your HTML5 applications to native platforms",
   "scripts": {},
